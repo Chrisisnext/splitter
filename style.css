@@ -1,7 +1,18 @@
 
 
 *{margin:0px;padding:0px;box-sizing:border-box}
-body{background-color: #66ff0052 }   
+
+body{font-family: 'Fruktur', cursive;font-size:72px;color:purple }   
+
+
 .full{width:100vw;height:100vh;} 
 .quarter{width:50%;height:50%;background-color:blue;border:1px solid white}
 .flexy{display:flex;flex-wrap:wrap}
+.box{background-color:green;
+    position:absolute;
+    display:block;
+    left:500px;
+    top:500px;
+    width:100px;
+    height:100px;
+     }
